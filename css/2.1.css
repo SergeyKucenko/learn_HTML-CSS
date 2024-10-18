@@ -2,12 +2,14 @@
 @font-face {
     font-family: "Caviar Dreams";
     src: url(/fonts/Caviar-Dreams/CaviarDreams.ttf);
+
 }
 
 @font-face {
     font-family:"Caviar Dreams";
      src: url(/fonts/Caviar-Dreams/CaviarDreams-Bold.ttf);
       font-weight: bold;
+      
 }
 
 @font-face {
@@ -22,9 +24,24 @@
         font-weight: bold;
 }
 
+table.catalog h3::after {content: ":";}
+
+
+
+
+
+
+
+
+
+
+
+
 table.catalog h3 {
     font-family: "Caviar Dreams";
     font-size: 20pt;
+    text-decoration:underline;
+    color: rgb(169, 169, 169, 0.5);
 }
 table.catalog p {
     font-family: "Caviar Dreams";
@@ -36,6 +53,7 @@ body {font-family: Arial;}
 h1 {
     font-size: 32pt;
     font-family: Verdana;
+    text-shadow: 3pt 3pt 5pt darkgray;
 }
 p {font-size: 14pt !important;}
 p.greeting {font-size: 24pt;}
