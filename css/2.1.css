@@ -1,4 +1,38 @@
-﻿body {font-family: Arial;}
+﻿
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(/fonts/Caviar-Dreams/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family:"Caviar Dreams";
+     src: url(/fonts/Caviar-Dreams/CaviarDreams-Bold.ttf);
+      font-weight: bold;
+}
+
+@font-face {
+     font-family: "Caviar Dreams";
+      src: url(/fonts/Caviar-Dreams/CaviarDreams-Italic.ttf);
+       font-style: italic;
+}
+@font-face {
+     font-family: "Caviar Dreams";
+      src: url(/fonts/Caviar-Dreams/CaviarDreams-BoldItalic.ttf);
+       font-style: italic;
+        font-weight: bold;
+}
+
+table.catalog h3 {
+    font-family: "Caviar Dreams";
+    font-size: 20pt;
+}
+table.catalog p {
+    font-family: "Caviar Dreams";
+    font-style: italic;
+    
+}
+
+body {font-family: Arial;}
 h1 {
     font-size: 32pt;
     font-family: Verdana;
@@ -59,3 +93,4 @@ table.catalog tr:last-child td  {
 table.catalog tr:last-child td {
     border-bottom: none;
 }
+
