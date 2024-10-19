@@ -30,11 +30,15 @@ table.catalog h3::after {content: ":";}
 
 main {
     
-    border-left: medium double black;
-    border-right: medium double black;
-    border-top: medium double black;
-    border-bottom: medium double black;
+    border-left: medium solid black;
+    border-right: medium solid black;
+    border-top: medium solid black;
+    border-bottom: medium solid black;
 
+    border-top-right-radius: 30pt;
+    border-bottom-right-radius: 30pt;
+
+    
 }
 
 
