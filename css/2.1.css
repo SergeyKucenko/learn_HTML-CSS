@@ -28,6 +28,15 @@ table.catalog h3::after {content: ":";}
 
 
 
+main {
+    
+    border-left: medium double black;
+    border-right: medium double black;
+    border-top: medium double black;
+    border-bottom: medium double black;
+
+}
+
 
 
 
@@ -44,6 +53,8 @@ header h1 {
     margin-left: 80pt;
 
     padding-right: 12pt;
+
+   
 }
 
 
