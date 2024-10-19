@@ -38,7 +38,7 @@ main {
     border-top-right-radius: 30pt;
     border-bottom-right-radius: 30pt;
 
-    
+
 }
 
 
@@ -85,7 +85,11 @@ h1 {
 }
 p {font-size: 14pt !important;}
 p.greeting {font-size: 24pt;}
-.picture img {width: 67%;}
+.picture img{
+width: 67%;
+min-width: 500px;
+max-width: 700px;
+}
 h1 em {font-weight: normal;}
 .advertising {margin-left: 30pt;}
 header {text-align: center;}
@@ -124,6 +128,7 @@ nav {
     padding: 10px;
     border: black medium double;
     border-radius: 10px;
+    box-shadow: 4px 4px 1px 1px darkgray;
 }
 
 nav div{
