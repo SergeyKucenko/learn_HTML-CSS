@@ -24,9 +24,6 @@
         font-weight: bold;
 }
 
-table.catalog h3::after {content: ":";}
-
-
 
 main {
     
@@ -62,6 +59,8 @@ header h1 {
 }
 
 
+
+table.catalog h3::after {content: ":";}
 
 
 
@@ -108,7 +107,21 @@ table.pricelist th, table.pricelist td {
     border: grey thin solid;
     padding: 4px;
 }
-table.catalog {border-collapse: collapse;}
+
+table.pricelist{
+    font-style: italic;
+    text-align: left;
+    border: 2px solid black;
+    margin-bottom: 10pt;
+
+}
+
+
+
+table.catalog {
+    border-collapse: collapse;
+
+}
 table.catalog td {
     border-top: black thin dotted;
     border-bottom: black thin dotted;
