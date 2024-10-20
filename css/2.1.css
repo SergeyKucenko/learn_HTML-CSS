@@ -35,8 +35,8 @@ main {
     border-top: medium solid black;
     border-bottom: medium solid black;
 
-    border-top-right-radius: 30pt;
-    border-bottom-right-radius: 30pt;
+    border-top-left-radius: 30pt;
+    border-bottom-left-radius: 30pt;
 
 
 }
@@ -94,7 +94,10 @@ h1 em {font-weight: normal;}
 .advertising {margin-left: 30pt;}
 header {text-align: center;}
 main {text-align: justify;}
-footer {text-align: right;}
+footer {
+    text-align: right;
+    border: 2pt  lightgray;
+}
 .advertising div {
     font-size: 12pt;
     margin-top: 5pt;
@@ -128,8 +131,13 @@ nav {
     padding: 10px;
     border: black medium double;
     border-radius: 10px;
-    box-shadow: 4px 4px 1px 1px darkgray;
+    box-shadow: 4px 4px 10px 10px darkgray;
+
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
+
+
 
 nav div{
     font-size: 20pt;
