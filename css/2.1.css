@@ -159,12 +159,6 @@ nav {
 
 
 
-nav div{
-    font-size: 20pt;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 table.catalog tr:last-child td  {
     border-top: none;
 }
@@ -236,4 +230,11 @@ button,input[type=submit] {
     }
 
 
-
+    nav div, nav a{
+        font-size: 20pt;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    nav a {display: block;}
+    
