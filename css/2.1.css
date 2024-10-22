@@ -76,7 +76,10 @@ table.catalog p {
     
 }
 
-body {font-family: Arial;}
+body {font-family: Arial;
+    background-image: url(/img/BACK.jpg);
+    background-size: cover;
+}
 h1 {
     font-size: 32pt;
     font-family: Verdana;
@@ -184,3 +187,43 @@ nav a:link, nav a:visited {
 nav a:active, nav a:hover {
     color: darksalmon;
     text-decoration: none;}
+
+form{
+        width: 400px;
+        padding: 0px 10px;
+        border: thin dotted darkgrey;
+        border-radius: 5px;
+
+        margin-left: 10px;
+        margin-bottom: 20px;
+        background-color: rgb(232, 232, 232);
+
+        box-shadow: 5px 5px 5px 5px darkgray;
+
+
+    }
+
+    main h2{
+        margin-left: 100px;
+    }
+
+
+button,input[type=submit] {
+        font: bold 20pt verdana;
+        text-transform: uppercase;
+        width: 250px;
+        border: thick solid black;
+        border-radius: 0px;
+    }
+
+    form textarea, input::placeholder{
+        font-style: italic;
+        text-align: center;
+        font: bold 12pt verdana;
+    }
+
+
+    
+
+
+
