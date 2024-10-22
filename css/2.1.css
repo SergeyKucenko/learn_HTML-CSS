@@ -77,8 +77,12 @@ table.catalog p {
 }
 
 body {font-family: Arial;
-    background-image: url(/img/BACK.jpg);
-    background-size: cover;
+    background-image:  url(/img/roll_arigato.jpg), url(/img/BACK.jpg);
+    background-size: 60pt, cover;
+    background-attachment: fixed;
+
+    background-position: 10pt 8pt, 0pt 0pt;
+    background-repeat: no-repeat;
 }
 h1 {
     font-size: 32pt;
@@ -223,7 +227,13 @@ button,input[type=submit] {
     }
 
 
-    
+    .col1 {
+        column-width: 150px;
+    }
+
+    .col2 {
+        column-count: 3;
+    }
 
 
 
