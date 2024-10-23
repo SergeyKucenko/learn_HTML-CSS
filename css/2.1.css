@@ -43,20 +43,6 @@ main {
 
 
 
-header h1 {
-    font: bold 42pt Verdana, sans-serif;
-    text-align: right;
-    color: white;
-    background-color: black;
-
-    margin-top: 8pt;
-    margin-right: 8pt;
-    margin-left: 80pt;
-
-    padding-right: 12pt;
-
-   
-}
 
 
 
@@ -83,26 +69,15 @@ body {font-family: Arial;
 
     background-position: 10pt 8pt, 0pt 0pt;
     background-repeat: no-repeat;
+
+    margin: 0px;
 }
-h1 {
-    font-size: 32pt;
-    font-family: Verdana;
-    text-shadow: 3pt 3pt 5pt darkgray;
-}
+
 p {font-size: 14pt !important;}
 p.greeting {font-size: 24pt;}
-.picture img{
-width: 67%;
-min-width: 500px;
-max-width: 700px;
 
-margin-left: auto;
-margin-right: auto;
-
-}
-h1 em {font-weight: normal;}
 .advertising {margin-left: 30pt;}
-header {text-align: center;}
+
 main {text-align: justify;}
 footer {
     text-align: right;
@@ -258,7 +233,7 @@ nav2{
     border: 4px solid grey;
     font: 16pt Arial, sans-serif;
     display: flex  ;
-    justify-content: space-between;
+    justify-content: space-around;
    
 
 }
@@ -282,3 +257,6 @@ nav2 div{
 color: white;
 background-color: grey;
 }
+
+
+header
