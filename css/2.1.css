@@ -328,14 +328,18 @@ footer {
     position: absolute;
     background-color: yellow;
     text-decoration: underline;
+    
 
 }
 
 .pos5 a {
-    font: bolt 40pt Verdana;
+    font:  bold  42pt Verdana;
     text-transform: uppercase;
-    text-align: right;
     letter-spacing: 3pt;
     margin: 0px;
-    
+    text-align: center;
+    font-size: 15pt;
+  
+
+
 }
