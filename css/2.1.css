@@ -262,7 +262,7 @@ header{
 }
 
 
-.pos1, .pos2, .pos3, .pos4, .pos5{
+.pos1, .pos2, .pos3, .pos4{
     position: absolute;
 }
 
@@ -311,22 +311,31 @@ footer {
     text-align: right;
     background-color: white;
     height: 120pt;
+    position: relative;
+}
 
+
+
+.pos4{
+    top: 0pt;
+    right: 20pt;
 }
 
 .pos5{
-    left: 0pt;
-    top: 550pt;
-    right:600pt;
+    top: 20pt;
+    left: 20pt;
+    border: 2px solid black;
+    position: absolute;
+    background-color: yellow;
+    text-decoration: underline;
+
 }
 
 .pos5 a {
-    font: bolt 24 pt Verdana;
+    font: bolt 40pt Verdana;
     text-transform: uppercase;
     text-align: right;
-    letter-spacing: 1pt;
+    letter-spacing: 3pt;
     margin: 0px;
-    color: ;
-
     
 }
