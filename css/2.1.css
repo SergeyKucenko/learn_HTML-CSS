@@ -79,10 +79,7 @@ p.greeting {font-size: 24pt;}
 .advertising {margin-left: 30pt;}
 
 main {text-align: justify;}
-footer {
-    text-align: right;
-    border: 2pt  lightgray;
-}
+
 .advertising div {
     font-size: 12pt;
     margin-top: 5pt;
@@ -265,7 +262,7 @@ header{
 }
 
 
-.pos1, .pos2, .pos3{
+.pos1, .pos2, .pos3, .pos4, .pos5{
     position: absolute;
 }
 
@@ -310,4 +307,26 @@ header{
 }
 
 
+footer {
+    text-align: right;
+    background-color: white;
+    height: 120pt;
 
+}
+
+.pos5{
+    left: 0pt;
+    top: 550pt;
+    right:600pt;
+}
+
+.pos5 a {
+    font: bolt 24 pt Verdana;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 1pt;
+    margin: 0px;
+    color: ;
+
+    
+}
