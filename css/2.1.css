@@ -258,5 +258,49 @@ color: white;
 background-color: grey;
 }
 
+header{
+    background-color: white;
+    height: 80pt;
+    margin-bottom: 20pt;
+}
 
-header
+
+.pos1, .pos2, .pos3{
+    position: absolute;
+}
+
+.pos1{
+    left: 0pt;
+    top: 0pt;
+    width: 140pt;
+}
+
+.pos1 img{height: 80pt;}
+
+
+.pos2{
+    left: 140pt;
+    top: 29pt;
+    right: 0pt;
+}
+
+.pos2 h1 {
+    font:  bold italic 42pt Verdana;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 10pt;
+    margin: 0px;
+    background-color: darksalmon;
+
+
+
+.pos3 {
+    left: 140pt;
+    top: 4pt;
+    right: 70pt;
+}
+
+
+
+
+}
