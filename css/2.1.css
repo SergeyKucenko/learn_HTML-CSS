@@ -292,7 +292,7 @@ header{
     margin: 0px;
     background-color: darksalmon;
 
-
+}
 
 .pos3 {
     left: 140pt;
@@ -300,7 +300,14 @@ header{
     right: 70pt;
 }
 
-
-
-
+.pos3 h1 {
+    font: bolt 24pt Verdana;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 6pt;
+    margin: 0px;
+    color: darksalmon;
 }
+
+
+
