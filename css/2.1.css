@@ -78,7 +78,10 @@ p.greeting {font-size: 24pt;}
 
 .advertising {margin-left: 30pt;}
 
-main {text-align: justify;}
+main {
+    text-align: justify;
+    
+}
 
 .advertising div {
     font-size: 12pt;
@@ -132,7 +135,7 @@ nav {
     margin-left: 20px;
     margin-bottom: 20px;
 
-    
+
 
 }
 
