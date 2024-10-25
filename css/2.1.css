@@ -123,14 +123,17 @@ table.pricelist tfoot td {
 nav {
     float: left;
     width: 150px;
-    margin: 10px 30px 10px 0px;
+    margin: 10px 40px 20px 0px;
     padding: 10px;
-    border: black medium double;
-    border-radius: 10px;
-    box-shadow: 4px 4px 10px 10px darkgray;
+    border: black medium solid ;
+    border-radius: 30px;
+   
 
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 20px;
+
+    
+
 }
 
 
@@ -332,14 +335,12 @@ footer {
 
 }
 
-.pos5 a {
+.pos5 a  {
     font:  bold  42pt Verdana;
     text-transform: uppercase;
     letter-spacing: 3pt;
     margin: 0px;
     text-align: center;
     font-size: 15pt;
-  
-
 
 }
