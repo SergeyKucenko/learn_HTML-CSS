@@ -167,7 +167,9 @@ nav a:link, nav a:visited {
 
 nav a:active, nav a:hover {
     color: darksalmon;
-    text-decoration: none;}
+    text-decoration: none;
+    transform: scale(1.2,1.2)
+}
 
 form{
         width: 400px;
@@ -252,6 +254,7 @@ nav2 a:active, nav2 a:hover {
     color: white;
     background-color: blue;
     text-decoration: none;
+    transform: scale(1.2,1.2)
 }
 
 nav2 a {display: block;}
