@@ -136,7 +136,6 @@ nav {
     margin-bottom: 20px;
 
 
-
 }
 
 
@@ -254,7 +253,8 @@ nav2 a:active, nav2 a:hover {
     color: white;
     background-color: blue;
     text-decoration: none;
-    transform: scale(1.2,1.2)
+    transform: scale(1.2,1.2) translateY(4px)
+   
 }
 
 nav2 a {display: block;}
