@@ -25,6 +25,17 @@
 }
 
 
+@keyframes navlinks {
+     0% {color: darkred;}
+     60% {color: black;}
+     100% {
+        color: darksalmon;
+        transform: translateX(10px);
+    }
+}
+
+
+
 main {
     
     border-left: medium solid black;
@@ -168,6 +179,8 @@ nav a:active, nav a:hover {
     color: darksalmon;
     text-decoration: none;
     transform: scale(1.2,1.2)
+  
+
 }
 
 form{
@@ -253,8 +266,8 @@ nav2 a:active, nav2 a:hover {
     color: white;
     background-color: blue;
     text-decoration: none;
-    transform: scale(1.2,1.2) translateY(4px)
-   
+    transform: scale(1.2,1.2) translateY(4px) 
+    
 }
 
 nav2 a {display: block;}
