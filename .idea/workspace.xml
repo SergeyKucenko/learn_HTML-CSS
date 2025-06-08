@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b99343-40bb-4a77-b970-4d7dc66adc89" name="Changes" comment="" />
+    <list default="true" id="f8b99343-40bb-4a77-b970-4d7dc66adc89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +50,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "database.data.views.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +73,9 @@
       <workItem from="1748598042073" duration="217000" />
       <workItem from="1748605857295" duration="221000" />
       <workItem from="1748807712652" duration="320000" />
+      <workItem from="1749386831784" duration="2760000" />
+      <workItem from="1749391032392" duration="210000" />
+      <workItem from="1749391249915" duration="1213000" />
     </task>
     <servers />
   </component>
