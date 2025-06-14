@@ -1,3 +1,4 @@
-document.addEventListener('click', (event) =>  {
+import i from '/modules/i.js'
 
-})
+i()
+
