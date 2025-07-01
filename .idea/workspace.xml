@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b99343-40bb-4a77-b970-4d7dc66adc89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Общие файлы  - YANDEX/GitHub/learn_HTML-CSS/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f8b99343-40bb-4a77-b970-4d7dc66adc89" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +85,7 @@
       <workItem from="1750019018036" duration="107000" />
       <workItem from="1750518174450" duration="6926000" />
       <workItem from="1750532267026" duration="1301000" />
+      <workItem from="1751405214920" duration="10000" />
     </task>
     <servers />
   </component>
