@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+.gigaide
+dist
+node_modules
