@@ -10,21 +10,40 @@
     action="/test"
     method="get"
 >
-  <input
-      type="email"
-      placeholder="ваш email"
-  >
-  <input
-      type="password"
-      placeholder="ваш пароль"
-  >
 
-  <input
-      type="date"
-      placeholder="дата рождения"
-  >
 
-  <button type="submit">Отправить</button>
+  <div>
+    <label for="email">Введите email</label>
+    <input
+        type="email"
+        placeholder="ваш email"
+        id="email"
+    >
+  </div>
+
+  <div>
+    <label for="password">Введите пароль</label>
+    <input
+        type="password"
+        placeholder="ваш пароль"
+        id="password"
+    >
+  </div>
+
+  <div>
+    <label for="date">Введите дату рождения</label>
+    <input
+        type="date"
+        placeholder="дата рождения"
+        id="date"
+    >
+  </div>
+
+  <div>
+    <label for="submit">Кнопка отправить</label>
+    <button type="submit" id="submit">Отправить</button>
+  </div>
+
 
 </form>
 
