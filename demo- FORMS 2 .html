@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DEMO PAGE</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<main>
+  <form
+    action="#"
+    method="get"
+
+  >
+    <h1>Свяжитесь со мной</h1>
+
+    <div>
+      <label
+        for="email"
+
+      >Email*
+      </label>
+
+
+      <input
+        type="email"
+        placeholder="ваш email"
+        id="email"
+        name="email"
+      >
+    </div>
+
+    <div>
+      <label
+        for="telegram"
+      >Telegram
+      </label>
+
+      <input
+        type="text"
+        placeholder="Введите Ваш telegram"
+        id="telegram"
+        name="telegram"
+      >
+    </div>
+
+    <div>
+      <label
+        for="topic"
+
+      >Тема*
+      </label>
+      <select
+        name="topic"
+        id="topic"
+        required
+      >
+        <option value="1">Приобретение курсовы</option>
+        <option value="2">Обратная связь</option>
+        <option value="3">Жалоба</option>
+        <option value="4">Прочее</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="comment">Комментарий</label>
+      <textarea
+        rows="10"
+        cols="30"
+        name="comment"
+        id="comment"
+        placeholder="Введите комментарий"
+      ></textarea>
+    </div>
+
+
+    <div>
+      <label
+        for="submit"
+        hidden
+      >Кнопка отправить
+      </label>
+      <button
+        type="submit"
+        id="submit"
+      >Отправить
+      </button>
+
+    </div>
+
+
+  </form>
+</main>
+</body>
+</html>
