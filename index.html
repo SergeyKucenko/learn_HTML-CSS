@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html
-    lang="ru"
-    xmlns="http://www.w3.org/1999/html"
+  lang="ru"
+  xmlns="http://www.w3.org/1999/html"
 >
 <head>
-  <meta charset="utf-8" />
-  <meta />
+  <meta charset="utf-8"/>
+  <meta/>
   <meta
-      name="description"
-      content="Изучаем HTML - CSS "
+    name="description"
+    content="Изучаем HTML - CSS "
   />
 
   <link
-      rel="stylesheet"
-      href="1-MIRO/css/styles.css"
+    rel="stylesheet"
+    href="1-MIRO/css/styles.css"
   />
 
   <title>MIRO</title>
@@ -25,11 +25,11 @@
 
   <nav>
     <ul>
-      <li>Продукт</li>
-      <li>Решения</li>
-      <li>Ресурсы</li>
-      <li>Предпрития</li>
-      <li>Тарифы</li>
+      <li><a href="#">Продукт</a></li>
+      <li><a href="#">Решения</a></li>
+      <li><a href="#">Ресурсы</a></li>
+      <li><a href="#">Предпрития</a></li>
+      <li><a href="#">Тарифы</a></li>
     </ul>
   </nav>
 
@@ -44,59 +44,75 @@
 
   <!--  командная работа-->
   <section>
-    <h1>Место для коммандной работы</h1>
-    <p>Интерактивная онлайн-доска для совместной работы команд — в любое время,
-      в любом месте.
+    <h1 class="textDekor">Место для коммандной работы</h1>
+    <p class="heroText">Интерактивная онлайн-доска для совместной работы команд
+                        — в любое время, в любом месте.
     </p>
-<!--    форма на главной странице -->
+    <!--    форма на главной странице -->
     <form
-        action="/register"
-        method="get"
+      action="/register"
+      method="get"
+      class="heroForm"
     >
 
+      <label for="email"></label>
+      <input
 
+        id="email"
+        name="email"
+        type="email"
+
+      />
+      <button id="heroButton">Начать бесплатно</button>
+
+      <!--выбор ID-->
     </form>
-
+    <p>Всегда бесплатно - кредитная карта не нужна</p>
 
     <img
-        src="1-MIRO/img/headerimage-without-text%201.png"
-        alt="Изображение МИРО"
+      src="1-MIRO/img/headerimage-without-text%201.png"
+      alt="Изображение МИРО"
     >
-  </section>
 
-
-  <section>
-    <h2>Работайте вместе, где бы вы ни находились</h2>
-    <p>Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда
-      может общаться, сотрудничать и совместно заниматься творчеством в одном
-      пространстве, из любой точки мира.
+    <h2 class="textDekor">Работайте вместе, где бы вы ни находились</h2>
+    <p class="sectionText">Работая в офисе, удалённо или в гибридном формате, с
+                           Miro ваша команда может общаться, сотрудничать и
+                           совместно заниматься творчеством в одном
+                           пространстве, из любой точки мира.
     </p>
     <img
-        src="1-MIRO/img/IMAGE.png"
-        alt="ЛАЙТБОКС"
+      src="1-MIRO/img/IMAGE.png"
+      alt="ЛАЙТБОКС"
     >
     <p>
-      <a href="#">Узнать больше</a>
+      <a
+        href="#"
+        class="link"
+      >Узнать больше
+      </a>
     </p>
-  </section>
 
-  <section>
-    <h3>Закройте лишние вкладки — всё уже здесь</h3>
-    <p>Редактируете ли вы документы в Google Docs, работаете над задачами в Jira
-      или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с уже
-      известными и полюбившимися вам инструментами.
+    <h3 class="textDekor">Закройте лишние вкладки — всё уже здесь</h3>
+    <p class="sectionText"> Редактируете ли вы документы в Google Docs,
+                            работаете над задачами в Jira или созваниваетесь в
+                            Zoom, Miro предлагает более 100 интеграций с уже
+                            известными и полюбившимися вам инструментами.
     </p>
     <p>
-      <a href="#">Узнать больше</a>
+      <a
+        href="#"
+        class="link"
+      >Узнать больше
+      </a>
     </p>
     <img
-        src="1-MIRO/img/IMAGE2.png"
-        alt="СФЕРА КЛИЕНТОВ"
+      src="1-MIRO/img/IMAGE2.png"
+      alt="СФЕРА КЛИЕНТОВ"
     >
   </section>
+
 
 </main>
-
 
 
 <section>
@@ -104,18 +120,14 @@
 </section>
 
 
-
-
-
 <footer>
   <div>&#169; 2025 MIRO</div>
-<div>
-  <a href="#">Условия пользования</a>
-  <a href="#">Политика конфиденциальности</a>
-  <a href="#">Управление файлами cookies</a>
-</div>
+  <div>
+    <a href="#">Условия пользования</a>
+    <a href="#">Политика конфиденциальности</a>
+    <a href="#">Управление файлами cookies</a>
+  </div>
 </footer>
-
 
 
 </body>
