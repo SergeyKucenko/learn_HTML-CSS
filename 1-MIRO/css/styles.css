@@ -22,6 +22,20 @@ label {
   color: #fafafa;
 }
 
+#heroButton:hover {
+  background-color: #434a77;
+}
+
+#heroButton:active {
+  background-color: red;
+}
+
+.heroForm input:focus {
+  background-color: green;
+}
+
+
+
 .link {
   color: #4262ff;
   text-decoration: underline;
@@ -63,11 +77,30 @@ header a {
   text-decoration: none;
 }
 
+
 .heroForm + p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #050038;
 }
+
+ul li:first-child {
+  color: red;
+}
+
+/*ниже приведена формула для выбора определенного элимента, 2n-1 это выбор нечетного  и тд,ё
+ ПРИМЕНЕНИЕ - покрасить орпедленные строки таблицы */
+ul li:nth-child(2) {
+  color: yellow;
+}
+
+/* селектор NOT все кроме этого условия будут покрашены в красный цвет */
+
+/*p:not(.sectionText) {*/
+/*  color: red;*/
+/*}*/
+
+
 
 

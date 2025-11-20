@@ -22,14 +22,26 @@ label {
 }
 
 
-button {
+.btnFoter {
   background-color: #6c38cc;
   color: #fafafa;
 }
 
-input[type="email"] {
-  background-color: RED;
+
+.btnFoter:hover {
+  background-color: #8c819a;
 }
+
+input:invalid {
+  background-color: GREEN;
+}
+
+input:valid {
+  background-color: #e5e572;
+}
+
+
+
 
 
 
