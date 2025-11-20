@@ -1,0 +1,48 @@
+﻿
+main {
+  background-color: #1e1f29;
+}
+
+
+h1 {
+  color: #FAFAFA;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Andale Mono', monospace;
+}
+
+
+input, textarea, select {
+  background-color: #2e2d3d;
+  color: #fafafa;
+}
+
+label {
+  color: #AFB2BF
+}
+
+
+.btnFoter {
+  background-color: #6c38cc;
+  color: #fafafa;
+}
+
+
+.btnFoter:hover {
+  background-color: #8c819a;
+}
+
+input:invalid {
+  background-color: GREEN;
+}
+
+input:valid {
+  background-color: #e5e572;
+}
+
+
+
+
+
+
+

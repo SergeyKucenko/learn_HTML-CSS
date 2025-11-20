@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DEMO PAGE</title>
+</head>
+
+<body>
+<form
+    action="#"
+    method="get"
+>
+
+  <input
+      type="hidden"
+      id="hid"
+  >
+
+  <div>
+    <label for="email">Введите email</label>
+    <input
+        type="email"
+        placeholder="ваш email"
+        id="email"
+        name="email"
+
+    >
+  </div>
+
+  <label for="agree">Согласен с обработкой данных</label>
+  <input
+      type="checkbox"
+      name="agree"
+      id="agree"
+  >
+  <div>
+    <label for="all">Поиск по всюду</label>
+    <input
+        type="radio"
+        name="serch"
+        id="all"
+        value="all"
+    >
+  </div>
+
+  <div>
+    <label for="youtube">Поиск по ютуб</label>
+    <input
+        type="radio"
+        name="serch"
+        id="youtube"
+        value="youtube"
+    >
+  </div>
+
+  <div>
+    <label for="topic">Тематика</label>
+    <select
+        name="topic"
+        id="topic"
+    >
+      <optgroup label="Для детей">
+        <option value="2">Дети</option>
+        <option value="3">Музыка</option>
+      </optgroup>
+      <option value="1">Все</option>
+      <option value="4">Животные</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="num">Значение</label>
+    <input
+        type="number"
+        name="num"
+        id="num"
+        min="0"
+        max="5"
+        step="1"
+    >
+  </div>
+
+  <div>
+    <label for="volume">Громкость</label>
+    <input
+        type="range"
+        name="volume"
+        id="volume"
+        min="0"
+        max="10"
+        step="2"
+    >
+  </div>
+
+  <div>
+    <label for="text">Комментарий</label>
+    <textarea
+        rows="10"
+        cols="50"
+        name="text"
+        id="text"
+        placeholder="Введите текст"
+    ></textarea>
+
+  </div>
+
+
+  <div>
+    <label for="submit">Кнопка отправить</label>
+    <button
+        type="submit"
+        id="submit"
+    >Отправить
+    </button>
+    <div>
+      <button
+          type="reset"
+          id="reset"
+      >Сбросить форму
+      </button>
+    </div>
+
+
+  </div>
+
+
+</form>
+
+</body>
+</html>
