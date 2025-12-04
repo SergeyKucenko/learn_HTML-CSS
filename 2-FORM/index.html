@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>DEMO FORM</title>
-  <link rel="stylesheet" href="../2-FORM/css/styles-forms.css">
+  <link
+    rel="stylesheet"
+    href="../2-FORM/css/styles-forms.css"
+  >
 </head>
 
 <body>
@@ -15,7 +18,13 @@
   >
     <h1>Свяжитесь со мной</h1>
 
-    <div>
+    <div class="field">
+
+      <img
+        src="../2-FORM/icons/mail.svg"
+        alt="MAIL ICON"
+      >
+
       <label
         for="email"
 
@@ -28,10 +37,15 @@
         placeholder="ваш email"
         id="email"
         name="email"
+
       >
     </div>
 
-    <div>
+    <div class="field">
+      <img
+        src="../2-FORM/icons/send.svg"
+        alt="SEND ICON"
+      >
       <label
         for="telegram"
       >Telegram
@@ -45,7 +59,11 @@
       >
     </div>
 
-    <div>
+    <div class="field">
+      <img
+        src="../2-FORM/icons/chat.svg"
+        alt="chat ICON"
+      >
       <label
         for="topic"
 
@@ -56,15 +74,15 @@
         id="topic"
         required
       >
-        <option value="1">Приобретение курсовы</option>
+        <option value="1">Приобретение курсов</option>
         <option value="2">Обратная связь</option>
         <option value="3">Жалоба</option>
         <option value="4">Прочее</option>
       </select>
     </div>
 
-    <div>
-      <label for="comment">Комментарий</label>
+    <div class="field">
+      <label>Комментарий</label>
       <textarea
         rows="10"
         cols="30"

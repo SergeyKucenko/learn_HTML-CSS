@@ -1,12 +1,43 @@
 ﻿
+body {
+  margin: 0;
+}
 
 h1 {
+  margin: 0 0 17px 0;
+  text-align: left;
+}
+
+h2 {
+  margin: 0 0 19px 0;
+}
+
+h1. h2 {
   color: #000000;
   font-size: 36px;
   font-weight: bold;
 
 }
 
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Roboto, sans-serif;
+
+}
+
+
+footer {
+  background-color: #050038;
+  padding: 47px 40px;
+}
+
+footer a {
+  color: #fafafa;
+  text-decoration: none;
+
+}
 
 input, textarea, select {
 
@@ -20,6 +51,10 @@ label {
 #heroButton {
   background-color: #6c38cc;
   color: #fafafa;
+  border-radius: 32px;
+  height: 48px;
+  border: 1px solid #5c00ff;
+  padding: 10px 20px;
 }
 
 #heroButton:hover {
@@ -30,16 +65,23 @@ label {
   background-color: red;
 }
 
+
+.heroForm input {
+  border-radius: 32px;
+  height: 38px;
+  padding: 5px 10px;
+}
+
 .heroForm input:focus {
   background-color: green;
 }
-
 
 
 .link {
   color: #4262ff;
   text-decoration: underline;
 }
+
 
 input[type="text"] {
   background-color: RED;
@@ -51,21 +93,17 @@ input[type="text"] {
   font-family: Roboto, sans-serif;
   font-style: normal;
   letter-spacing: 1px;
+
 }
 
-.heroText{
- color: #050038;
+.heroText {
+  color: #050038;
+  margin: 0 0 55px 0;
 }
 
 .sectionText {
   color: #696688;
-}
-
-p {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  font-family: Roboto, sans-serif;
+  margin: 0 40px 0;
 }
 
 
@@ -83,17 +121,18 @@ header a {
   font-weight: 400;
   line-height: 24px;
   color: #050038;
+  margin: 8px 0 52px 0;
 }
 
-ul li:first-child {
-  color: red;
-}
+/*ul li:first-child {*/
+/*  color: red;*/
+/*}*/
 
 /*ниже приведена формула для выбора определенного элимента, 2n-1 это выбор нечетного  и тд,ё
  ПРИМЕНЕНИЕ - покрасить орпедленные строки таблицы */
-ul li:nth-child(2) {
-  color: yellow;
-}
+/*ul li:nth-child(2) {*/
+/*  color: yellow;*/
+/*}*/
 
 /* селектор NOT все кроме этого условия будут покрашены в красный цвет */
 
@@ -102,5 +141,40 @@ ul li:nth-child(2) {
 /*}*/
 
 
+p::selection {
+  background-color: #c4aedc;
+}
 
 
+/*убирается стилизация ul  в nav */
+nav {
+  padding: 33px 50px;
+  border-bottom: 1px solid #a4a4a4;
+  margin-bottom: 60px;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+
+}
+
+ul > li {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sectionList {
+  list-style-type: none;
+  /*list-style-image: url("../img/drink.jpg");*/
+
+}
+
+.sectionList li::marker {
+  content: "🍹";
+}

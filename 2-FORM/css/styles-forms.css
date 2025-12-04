@@ -1,6 +1,10 @@
 ﻿
-main {
-  background-color: #1e1f29;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0e13;
 }
 
 
@@ -8,23 +12,67 @@ h1 {
   color: #FAFAFA;
   font-size: 36px;
   font-weight: bold;
-  font-family: 'Andale Mono', monospace;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 0 32px 0;
 }
-
 
 input, textarea, select {
   background-color: #2e2d3d;
   color: #fafafa;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-family: sans-serif;
+  padding: 27px 48px 12px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+
 }
 
 label {
+  position: absolute;
+  top: 12px;
+  left: 48px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
   color: #AFB2BF
+}
+
+input ::placeholder, textarea ::placeholder, select ::placeholder {
+  color: #a1a2b2;
+  font-size: 16px;
+
+
+}
+
+.field img {
+  position: absolute;
+  top: 16px;
+  left: 17px;
+
+}
+
+
+main {
+  padding: 45px;
+  background-color: #444458;
+
 }
 
 
 .btnFoter {
   background-color: #6c38cc;
   color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+
 }
 
 
@@ -32,14 +80,11 @@ label {
   background-color: #8c819a;
 }
 
-input:invalid {
-  background-color: GREEN;
-}
+.field {
+  margin-bottom: 16px;
+  position: relative;
 
-input:valid {
-  background-color: #e5e572;
 }
-
 
 
 
