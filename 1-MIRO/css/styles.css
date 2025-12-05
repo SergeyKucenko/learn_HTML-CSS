@@ -1,4 +1,8 @@
 ﻿
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -55,14 +59,21 @@ label {
   height: 48px;
   border: 1px solid #5c00ff;
   padding: 10px 20px;
+  transition: background-color 1s, border-radius 3s;
+
 }
 
+
 #heroButton:hover {
-  background-color: #434a77;
+  background-color: #94cf27;
+  border-radius: 50%;
+  border: 5px dotted;
+
 }
 
 #heroButton:active {
   background-color: red;
+
 }
 
 
@@ -160,14 +171,6 @@ nav ul {
   margin: 0;
 }
 
-nav li {
-
-}
-
-ul > li {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
 
 .sectionList {
   list-style-type: none;
@@ -177,4 +180,12 @@ ul > li {
 
 .sectionList li::marker {
   content: "🍹";
+}
+
+.exp div {
+  width: 200px;
+  height: 200px;
+  background-color: khaki;
+  margin: 10px;
+
 }
