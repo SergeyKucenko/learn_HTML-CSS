@@ -16,10 +16,11 @@ h2 {
   margin: 0 0 19px 0;
 }
 
-h1. h2 {
+h1, h2 {
   color: #000000;
   font-size: 36px;
   font-weight: bold;
+
 
 }
 
@@ -187,5 +188,39 @@ nav ul {
   height: 200px;
   background-color: khaki;
   margin: 10px;
-
+  animation: myMove 4s ease forwards;
+  animation-delay: 4s;
+  animation-iteration-count: 4;
 }
+
+
+
+
+/*@keyframes myMove {*/
+/*  25% {*/
+/*    transform: translateX(100%);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: translateX(100%);*/
+/*  }*/
+
+/*  75% {*/
+/*    transform: translateX(100%);*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: translateX(0%) translateY(-100%);*/
+/*  }*/
+/*}*/
+
+  /*@media (max-width: 500px) {*/
+  /*  h1 {*/
+  /*    color: red;*/
+  /*  }*/
+
+  /*}*/
+
+
+
+
