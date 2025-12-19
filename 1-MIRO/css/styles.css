@@ -184,13 +184,14 @@ nav ul {
 }
 
 .exp div {
-  width: 200px;
+  width: clamp(200px, 50% , 600px);
   height: 200px;
   background-color: khaki;
   margin: 10px;
-  animation: myMove 4s ease forwards;
-  animation-delay: 4s;
-  animation-iteration-count: 4;
+  /*animation: myMove 4s ease forwards;*/
+  /*animation-delay: 4s;*/
+  /*animation-iteration-count: 4;*/
+  fornt-size: 24px;
 }
 
 
