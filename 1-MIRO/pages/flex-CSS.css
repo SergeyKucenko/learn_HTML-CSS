@@ -13,19 +13,26 @@ body {
 .container {
   BORDER: 10px solid #6c38cc;
   display: flex;
-  height: 100vh;
-  justify-content: center;
   flex-wrap: wrap;
+  /*height: 100vh;*/
+  /*justify-content: center;*/
 
 
 }
+
 
 .item {
   background: #232228;
   border: 1px solid #6c38cc;
   text-align: center;
   padding: 10px;
-  width: calc(100% / 3);
 
+
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
 }
 
+.item1{
+  margin-right: auto;
+}
