@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DEMO FORM</title>
+  <link
+    rel="stylesheet"
+    href="../2-FORM/css/styles-forms.css"
+  >
+</head>
+
+<body>
+<main>
+  <form
+    action="#"
+    method="get"
+
+  >
+    <h1>Свяжитесь со мной</h1>
+
+    <div class="field">
+
+      <img
+        src="../2-FORM/icons/mail.svg"
+        alt="MAIL ICON"
+      >
+
+      <label
+        for="email"
+
+      >Email*
+      </label>
+
+
+      <input
+        type="email"
+        placeholder="ваш email"
+        id="email"
+        name="email"
+
+      >
+    </div>
+
+    <div class="field">
+      <img
+        src="../2-FORM/icons/send.svg"
+        alt="SEND ICON"
+      >
+      <label
+        for="telegram"
+      >Telegram
+      </label>
+
+      <input
+        type="text"
+        placeholder="Введите Ваш telegram"
+        id="telegram"
+        name="telegram"
+      >
+    </div>
+
+    <div class="field">
+      <img
+        src="../2-FORM/icons/chat.svg"
+        alt="chat ICON"
+      >
+      <label
+        for="topic"
+
+      >Тема*
+      </label>
+      <select
+        name="topic"
+        id="topic"
+        required
+      >
+        <option value="1">Приобретение курсов</option>
+        <option value="2">Обратная связь</option>
+        <option value="3">Жалоба</option>
+        <option value="4">Прочее</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Комментарий</label>
+      <textarea
+        rows="10"
+        cols="30"
+        name="comment"
+        id="comment"
+        placeholder="Введите комментарий"
+      ></textarea>
+    </div>
+
+
+    <div>
+      <label
+        for="submit"
+        hidden
+      >Кнопка отправить
+      </label>
+      <button
+        type="submit"
+        id="submit"
+        class="btnFoter"
+      >Отправить
+      </button>
+
+    </div>
+
+  </form>
+
+  <div class="div1">
+    <h1>Заголовок 1</h1>
+    <h2>Заголовок 2</h2>
+    <h3>Заголовок 3</h3>
+    <h4>Заголовок 4</h4>
+  </div>
+
+</main>
+</body>
+</html>

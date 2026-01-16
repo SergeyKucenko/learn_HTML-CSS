@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 55px;
+  font-family: 'FIRA SANS', sans-serif;
+}
+
+.container {
+  BORDER: 10px solid #6c38cc;
+  display: flex;
+  flex-wrap: wrap;
+  /*height: 100vh;*/
+  /*justify-content: center;*/
+
+
+}
+
+
+.item {
+  background: #232228;
+  border: 1px solid #6c38cc;
+  text-align: center;
+  padding: 10px;
+
+
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+.item1{
+  margin-right: auto;
+}
