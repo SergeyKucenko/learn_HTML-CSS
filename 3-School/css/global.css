@@ -1,0 +1,48 @@
+﻿/*
+методология БЭМ
+
+Б - Блок (class)
+Э - Элемент блока
+М - Модификатор блока
+*/
+
+
+body{
+  background: #19171d;
+}
+.section-header {
+
+}
+
+.section-header__top {
+
+}
+
+.section-header__h2 {
+
+}
+
+.hero__button {
+margin-top: 32px;
+}
+
+.button {
+  padding: 16px 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  border-radius: 10px;
+  background: none;
+  border: none;
+}
+
+.button_primary {
+  background: #6c38cc;
+  color: white;
+}
+
+.button_ghost {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
