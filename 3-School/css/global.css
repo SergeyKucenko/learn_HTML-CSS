@@ -2,12 +2,12 @@
 :root {
   --color-primary: #6c38cc;
   --color-bg: #16171d;
-
 }
 
 html {
   --color-primary: green;
 }
+
 body {
   background: var(--color-bg);
 }
