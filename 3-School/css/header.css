@@ -1,0 +1,44 @@
+.header {
+  background-color: var(--color-bg-medium);
+}
+
+
+.header__wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+
+.menu__item {
+  padding: 8px 16px;
+}
+
+.menu__item a {
+  font-family: 'FIRA SANS', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: var(--color-text);
+}
+
+.menu__item:hover a {
+  color: var(--color-link-hover);
+}
+
+.menu__item_active {
+  border: 1px solid var(--color-srtoke);
+  border-radius: var(--border-8);
+}
+
+a {
+  text-decoration: none;
+}
