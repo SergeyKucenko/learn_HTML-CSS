@@ -14,5 +14,8 @@
 
 body {
   background: var(--color-bg);
+  font-family: 'FIRA SANS', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 

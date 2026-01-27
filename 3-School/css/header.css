@@ -1,3 +1,5 @@
+/*header*/
+
 .header {
   background-color: var(--color-bg-medium);
 }
@@ -11,10 +13,32 @@
   align-content: center;
 }
 
+/*header*/
+
+.header__login {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  font-size: 18px;
+  line-height: 120%;
+  color: var(--color-text);
+  cursor: pointer;
+
+}
+
+.header__login:hover {
+  cursor: pointer;
+  color: var(--color-link-hover)
+
+}
+
+
+/* Menu */
 .menu {
   list-style: none;
   display: flex;
-  gap: 56px;
+  gap: 40px;
 }
 
 .menu__item {
@@ -22,21 +46,21 @@
 }
 
 .menu__item a {
-  font-family: 'FIRA SANS', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  cursor: pointer;
   font-size: 18px;
   line-height: 120%;
   color: var(--color-text);
 }
 
 .menu__item:hover a {
+  cursor: pointer;
   color: var(--color-link-hover);
 }
 
 .menu__item_active {
   border: 1px solid var(--color-srtoke);
   border-radius: var(--border-8);
+  cursor: pointer;
 }
 
 a {
