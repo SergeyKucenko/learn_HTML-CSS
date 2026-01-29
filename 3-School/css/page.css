@@ -13,8 +13,35 @@
   gap: 32px;
 }
 
-.h1{
+h1 {
   margin: 0;
+  font-style: normal;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--color-text);
 }
+
+.hero__h1_gradient {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hero__cta {
+  display: flex;
+  gap: 32px;
+}
+
+.button_primary:hover {
+  background: var(--color-primary-hover);
+}
+
+.button_ghost:hover {
+  background: var(--color-bg-medium);
+}
+
 
 
