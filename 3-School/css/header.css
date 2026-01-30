@@ -42,6 +42,10 @@
   .header__login {
     display: none;
   }
+
+  .header__wrapper {
+    padding: 30px 24px;
+  }
 }
 
 /* Menu */
@@ -79,6 +83,9 @@ a {
 
 @media (max-width: 960px) {
   .menu {
+    display: none;
+  }
+  .header__login {
     display: none;
   }
 }
